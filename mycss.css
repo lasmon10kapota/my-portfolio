@@ -9,11 +9,11 @@ header, footer, ul {
   width:100%;
   overflow: hidden;
   padding: 0;
-  background-color: #333;
+  background-color: Gray;
   border: 1px solid salmon;
   border-right: 2px solid salmon;
   border-left: 2px solid salmon;
-  
+  list-style-type: none;
 }
 li {
   float:right;
