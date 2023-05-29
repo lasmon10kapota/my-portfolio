@@ -45,8 +45,6 @@ footer h2{
   font-size: 30px;
 }
 
-
-
 #p1 {
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
@@ -61,7 +59,7 @@ img{
     display: inline-block;
     margin-right: 10%;
 }
-p{}
+
 .intro-text{
   text-align: center;
     background-color: lightgrey;
@@ -73,9 +71,11 @@ p{}
     padding: 4px;
     display: inline-block;
 }
+
 #hd1{
     color:darkgreen;
 }
+
 #para1{
     color: dodgerblue;
     font-size: 25px;
