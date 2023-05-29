@@ -4,20 +4,23 @@ body,html{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 header, footer, ul {
   margin:0;
   width:100%;
   overflow: hidden;
   padding: 0;
-  background-color: Gray;
+  background-color: #333;
   border: 1px solid salmon;
   border-right: 2px solid salmon;
   border-left: 2px solid salmon;
   list-style-type: none;
 }
+
 li {
   float:right;
 }
+
 li a{
   display: inline-block;
   text-align: center;
@@ -26,15 +29,18 @@ li a{
   text-decoration: none;
   border-radius: 20px;
 }
+
 .active{
   background-color: seagreen;
   border-radius: 20px;
   float:left;
   margin-left: 20px;
 }
+
 li a:hover:not(.active){
   background-color:grey;
 }
+
 header h2{
   color: mediumslateblue;
   text-align: center;
@@ -61,7 +67,7 @@ img{
 }
 
 .intro-text{
-  text-align: center;
+    text-align: center;
     background-color: lightgrey;
     margin-top:15px;
     margin-left: 10px;
