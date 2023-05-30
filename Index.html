@@ -6,27 +6,28 @@
         <link rel="stylesheet" type="text/css" href="mycss.css"/>
         <title>Mr. Lasmon's Portifolio</title>
  
-        <script>
-            <Div>
-            const time = new Date().getHours();
-            var greeting;
-            if (time> 0){
-            greeting = "Good Morning!";
-                    }
-            else if (time > 12){
-            greeting = "Good Afternoon!";
-                    }
-            else if (time > 18){
-            greeting = "Good Evening!";
-                    }
-            else {
-             greeting = "Hi, Welcome!";
-        }
-     document.getElementById("mygreeting").innerHTML = greeting;
-            </Div>
+         <script>
+            function onLoadingPage(){ 
+                const timeOBJ = new Date();
+                var time = timeOBJ.getHours();
+                var greeting;   
+                if (time> 18){  
+                greeting = "Good Evening!";
+                }
+                else if (time > 12){
+                greeting = "Good Afternoon!";
+                        }
+                else if (time > 0){
+                greeting = "Good Morning!";
+                        }
+                else {
+                greeting = "Hi, Welcome!";
+                }
+                alert(greeting);
+            }
         </script>
     </head>
-    <body>
+    <body onload="onLoadingPage()">
         <header>
             <nav>
                 <ul>
