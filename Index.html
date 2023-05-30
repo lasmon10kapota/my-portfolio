@@ -5,40 +5,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="mycss.css"/>
         <title>Mr. Lasmon's Portifolio</title>
- 
          <script>
+    
             function onLoadingPage(){ 
                 const timeOBJ = new Date();
                 var time = timeOBJ.getHours();
                 var greeting;   
-                if (time> 18){  
+                if (time>= 18){  
                 greeting = "Good Evening!";
-                }
-                else if (time > 12){
+                } else if (time >= 12 ){
                 greeting = "Good Afternoon!";
-                        }
-                else if (time > 0){
+                } else if (time >= 0){
                 greeting = "Good Morning!";
-                        }
-                else {
-                greeting = "Hi, Welcome!";
                 }
                 alert(greeting);
             }
         </script>
+
     </head>
     <body onload="onLoadingPage()">
         <header>
             <nav>
                 <ul>
-                    <h2>LASMON KAPOTA</h2>
+                    <h2 title="The owner of this Website, ICT Expert.">LASMON KAPOTA</h2>
                     <li><a  href="Projects.html">Projects</a></li>
                     <li><a  href="skills.html">Skills</a></li>
                     <li><a  href="contact.html">Contact</a></li>
                     <li><a  href="about.html">About</a></li>
                     <li class="active"><a   href="home.html">Home</a></li>
                   </ul>
-            </nav> 
+            </nav>
+            
         </header>
         
     <div class="intro-text">
@@ -47,29 +44,47 @@
         <p id="para1">Full stack Developer and Programmer.</p>
     </div>
     <img src="mypic.jpg" alt="Lasmon's pic"/>
-    <br><br><br>    
+    <br><br><br>
     <hr>
-    <p id="mygreeting" style="text-align: center;"></p><br>
+
     <h1 style="text-align: center;">Introduction</h1>
     <p>Having observed the constantly advancing technology, it is my pleasure to work in the field
-         of Infomation and communication technology (ICT) which is now a dominating field across the world.
-          It has been always my dream to pursue this awesome aspect of science and thank God for making my 
+         of Information and communication technology (ICT) which is now a dominating field across the world.
+          It has been always my dream to pursue this awesome aspect of science, and thank God for making my 
           belated dream come true. I made it from high education with so satisfactory grade that set a bridge 
           for me to cross to tertially education to chase the course of my desire, ICT. As I speak am still on 
-          my way chasing pages and anytime soon I am going graduate to be degree holder of ICT then. However, 
+          my way chasing pages and anytime soon I am going to graduate to be a fully approved degree holder of ICT then. However, 
           I would like to say with gladness that I have got competent skills so far in this course that I can do
-        so many wonderful in Web designing and development, building different mobile and desktop applications,
-            graphic designing, video production, and many more. </p><br>
-     <p>I have provided you with some relevant sections in the navigation bar so that in case there is a need to
+        so many wonderful things like Web designing and development, building different mobile and desktop applications,
+            graphic designing, video production, and many more. </p>
+     <p>I have provided you with some relevant sections in the navigation bar so that in case there is a need to explore
         more about what this website is all about and whether it can benefit you in one way or another, you are 
-     so welcome and feel free to navigate through the site and I am cock sure that you are going to find you have been looking for.
-     Once again you are welcome to my website. </p><br>
-        
+     so welcome and feel free to navigate through the site and I am cock sure that you are going to find what you have been looking for.
+     Once again you are welcome to my website.</p>
+     <p>In case you want to get in touch with me, I have provided the form below. You can fill the required details and click on the submit button.</p><br>
+
+     <Form method="get" class="reg">
+        <h3 style="color:DodgerBlue;">Fill the required details in the spaces provided:</h3>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname"/><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname"/><br><br>
+        <label for="meseg">Message Here:</label><br><br>
+        <textarea name="message" rows="10" cols="60"></textarea><br><br>
+        <label for="emel">Email:</label>
+        <input type="email" id="emel" name="emel"/><br><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"/><br><br>
+        <label for="paswed">Password:</label>
+        <input type="password" id="paswed" name="paswed"/><br><br><br>
+        <input style="border-radius: 4px" type="submit" value="submit"/><br>
+     </form>
+       
     <footer>
         <h2> &copy; Lasmon ICT Viewpoint</h2>
+
         <p id="p1">Email: lsmnkapota@gmail.com</p>
         <p id="p1">Tel: 0998306445</p>
     </footer>
-        
     </body>
 </html>
