@@ -4,7 +4,6 @@ body,html{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 header, footer, ul {
   margin:0;
   width:100%;
@@ -37,7 +36,7 @@ li a{
   margin-left: 20px;
 }
 
-li a:hover:not(.active){
+a:hover:not(.active){
   background-color:grey;
 }
 
@@ -45,6 +44,7 @@ header h2{
   color: mediumslateblue;
   text-align: center;
 }
+
 footer h2{
   color: white;
   text-align: center;
@@ -68,15 +68,20 @@ img{
 }
 
 .intro-text{
-    text-align: center;
+  text-align: center;
     background-color: lightgrey;
-    margin-top:15px;
+    margin-top:20px;
     margin-left: 10px;
     width: 60%;
     border: 3px solid mediumslateblue;
     border-radius: 10px;
     padding: 4px;
     display: inline-block;
+}
+
+p{
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #hd1{
@@ -86,4 +91,13 @@ img{
 #para1{
     color: dodgerblue;
     font-size: 25px;
+}
+
+form{
+  background-color: #eeedff;
+  margin: 0% 20%;
+  padding: 5% 0% 5% 5%;
+  border-style: 1px dotted Violet;
+  border-radius: 20px;
+  width: 50%;
 }
