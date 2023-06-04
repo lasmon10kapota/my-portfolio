@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Mr. Lasmon's Portifolio</title>
+        <style>
+                
+    
+body,html{
+    background-color: rgba(50, 250, 200, 0.5);
+    margin:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+  margin:30px 50px 30px 50px;
+  width:90%;
+
+  overflow: hidden;
+  padding-bottom: 20px;
+  background-color:rgba(0, 50, 255, 0.5);
+  border: 1px solid salmon;
+  border-right: 2px solid salmon;
+  border-left: 2px solid salmon;
+  border-radius: 20px;
+  list-style-type: none;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  float:right;
+}
+li a{
+  display: inline-block;
+  text-align: center;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.active{
+  background-color:#aa86ee ;
+  float: left;
+  margin-left: 70px;
+  border-radius: 10px;
+}
+
+a:hover:not(.active){
+  background-color:lightslategrey;
+}
+header h2{
+  background-color:blanchedalmond;
+  color:#aa86ee ;
+  text-align: center;
+  font-size: 30px;
+}
+footer h2{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+p{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: Arial;
+  font-size: 20px;
+}
+.para, address{
+  text-align: center;
+}
+
+        </style>
+        <script>
+    
+            function onLoadingPage(){ 
+                const timeOBJ = new Date();
+                var time = timeOBJ.getHours();
+                var greeting;   
+                if (time>= 18){  
+                greeting = "Good Evening!";
+                } else if (time >= 12 ){
+                greeting = "Good Afternoon!";
+                } else if (time >= 0){
+                greeting = "Good Morning!";
+                }
+                alert(greeting);
+            }
+        </script>
+
+    </head>
+    <body onload="onLoadingPage()">
+        <header>
+            <nav>
+                <ul>
+                    <h2 title="The owner of this Website, ICT Expert.">LASMON KAPOTA</h2>
+                    <li><a  href="Projects.html">Projects</a></li>
+                    <li class="active"><a  href="skills.html">Skills</a></li>
+                    <li><a  href="contact.html">Contact</a></li>
+                    <li><a  href="aboutme.html">About Me</a></li>
+                    <li><a  href="home.html">Home</a></li>
+                  </ul>
+            </nav>
+            
+        </header>
+
+        <h2 class="para">
+          Graphic Designing
+        </h2>
+        <p class="para">
+         I can create convincing layouts and designs of LOGOs, flyers and many more that effectively convey the required message or idea to the consumers using 
+         designing tools such as Adobe PhotoShop, Adobe Illustrator, Adobe Express, etc.
+        </p>
+        <h2 class="para">
+          Web Designing and Development
+        </h2>
+        <p class="para">
+          I can bring together front-end languages like HTML, CSS and JavaScript with back-end languages such as AJAX and PHP accordingly
+          to interact with each other in their functioning capabilities in such a way that
+          effective and efficient web applications are built to serve different tasks.
+        </p>
+        <h2 class="para">
+          Desktop and Mobile Applications Development
+        </h2>
+        <p class="para">
+          Using C, Java, Python, C# and other relevant programming languages, I can build user programs that can be used on desktop computers
+          and laptops to offer the richest user experience and even on mobile gadgets so that they can be used anywhere and anytime.
+        </p>
+        <h2 class="para">
+          Video Production
+        </h2>
+        <p class="para">
+          I gathered up capabilities for making up a complete video all the way from planning which includes storyline and storyboard just to mention a few, 
+          shooting which requires a good camera, knowledge of best angles, steadness, closeness and many more and finally editing which needs best software such as Adobe Premiere, 
+          and knowledge of how to work around the editing software.
+        </p>
+        <h2 class="para">
+          Computer Networking
+        </h2>
+        <p class="para">
+         I know several aspects about computer networking as a branch of information technology such as network types and topologies, IP addressing,
+         different transmission media and modes, cybersecurity and network troubleshooting among others.
+        </p>
+        <h2 class="para">
+          Photography
+        </h2>
+        <p class="para">
+          I have got also knowledge of taking high quality pictures with the creative camera aspects such as exposure, exposure compensation, exposure bracketing, zoom bursts and white balance
+          with the aid of best cameras like Single Lens Reflex (SLR) camera.
+        </p>
+        <h2 class="para">
+          Word Processing
+        </h2>
+        <p class="para">
+          I can create text documents with many skills that I have in word processing using the features provided in the word processing tool such as Microsoft Word (like menu bar, tool bar, formatting bar etc).
+        </p>
+        <h2 class="para">
+          SpreadSheet Creation
+        </h2>
+        <p class="para">
+          I have got knowledge on cell formating, formulas and pivot tables that help me create spreadsheets in which numerical data and short text strings are entered, dsplayed and manipulated in rows and columns
+          working like a database which is essential in every organization using applications such as Microsoft Excel.
+        </p>
+        <footer>
+            <h2 title="Email: lsmnkapota@gmail.com & Tel: 0998306445"> &copy; Lasmon ICT Viewpoint</h2>
+        </footer>
+
+    </body>
+    
+</html>
