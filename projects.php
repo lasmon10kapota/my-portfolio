@@ -26,12 +26,6 @@ include ("databaseconnection.php");
             
         </header>
 
-        <h3>
-          My Projects will be added here anytime soon
-        </h3>
-        <p class="prog">
-         
-        </p>
         <?php
          myProjects();
           ?>
