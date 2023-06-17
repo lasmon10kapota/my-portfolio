@@ -28,14 +28,8 @@ function myProjects(){
     global $conn;
     $query = "SELECT * FROM projects";
     $result = mysqli_query($conn, $query) or die("Query could not fetch data!");
-    $num = mysqli_num_rows($result);
-    $i = 0;
-    while ($i < $num){
-        $row=mysqli_fetch_array($result);
-        
+    while ($row=mysqli_fetch_array($result)){
         echo '<h2 class="para">' . $row["project"].'</h2>' . '<p class="para">' . $row["description"] . '</p>';
-
-        $i++;
     }
 }
 //for the contact form in the index.php to check if the details are set
