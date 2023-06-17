@@ -1,3 +1,5 @@
+<?php include ('databaseconnection.php'); ?>
+
 <!DOCTYPE html>
   <html lang="en_us">
       <head>
@@ -46,19 +48,17 @@
       In case you want to get in touch with me, I have provided the form below. You can fill out the required details and click on the submit button.
     </p><br>
 
-     <Form method="get" class="reg">
-        <h3 style="color:DodgerBlue;">Fill the required details in the spaces provided:</h3>
-        <label for="fname">First Name:</label>
-        <input type="text" id="fname" name="fname"/><br><br>
-        <label for="lname">Last Name:</label>
-        <input type="text" id="lname" name="lname"/><br><br>
-        <label for="meseg">Message Here:</label><br><br>
-        <textarea name="message" rows="10" cols="60"></textarea><br><br>
+     <Form method="post" action="index.php">
+        <h3 style="color:DodgerBlue;">Fill the required details in the spaces provided:</h3><br>
+        <label for="fname">Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Your full name here" required/><br><br>
         <label for="emel">Email:</label>
-        <input type="email" id="emel" name="emel"/><br><br>
-        <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone"/><br><br>
-        <input style="border-radius: 4px" type="submit" value="submit"/><br>
+        <input type="email" id="emel" name="emel" placeholder="Your address here" required/><br><br>
+        <label for="addres">Address:</label>
+        <input type="email" id="addres" name="adress" placeholder="Your email here" required/><br><br>
+        <label for="meseg">Message Here:</label><br><br>
+        <textarea style="resize:vertical" placeholder="Type any message here which you may wish to share with me" name="message" rows="6" cols="70"></textarea><br><br>
+        <input title="You can submit if you are done filling out" style="border-radius: 8px" type="submit" name="submit" value="Submit" /><br>
      </form><br>
 
      <p>
