@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Lasmon's Portfolio</title>
-        <link rel="stylesheet" href="aboutmecss.css">
+        <link rel="stylesheet" href="aboutme.css">
         <script src="myjavascript.js"></script>    
     </head>
 
