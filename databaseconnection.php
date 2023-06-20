@@ -39,7 +39,7 @@ if(isset($_POST['submit'])){
     $email = $_POST['emel'];
     $address = $_POST['adress'];
     $message = $_POST['message'];
-    $query = "INSERT INTO contact(name, email, address, message) VALUES ('$name', '$email', '$address' '$message')";
+    $query = "INSERT INTO contact(name, email, address, message) VALUES ('$name', '$email', '$address', '$message')";
     $sql = mysqli_query($conn, $query);
     if($sql){
         header('location: index.php');
