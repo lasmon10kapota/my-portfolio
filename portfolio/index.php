@@ -180,7 +180,7 @@
         <textarea style="resize:vertical" placeholder="Type any message here which you may wish to share with me" name="message" rows="6" cols="70"></textarea><br><br>
         <input title="You can submit if you are done filling out" style="background-color:skyblue" type="submit" name="submit" value="Submit" /><br><br>
         <input title="You can hide the form if you have submitted" type="button" id="hidebtn" name="hidebtn"  style="background-color:darkgray" value="Hide">
-        <input title="If you want clear out the form, click here" style="background-color: pink" type="reset" id="clearbtn" name="clear" value="Clear" />
+        <input title="If you want to clear out the form, click here" style="background-color: pink" type="reset" id="clearbtn" name="clear" value="Clear" />
      </form><br>
        
      <h2 title="Email: lsmnkapota@gmail.com & Tel: 0998306445" style="color:#2e3550; font-size:15px;  margin-bottom:30px;  margin-left:550px";>
