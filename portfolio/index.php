@@ -40,7 +40,7 @@
           margin-left: 20px;
           margin-right: 20px;
           font-family: 'Times New Roman', Times, serif;
-          font-size: 20px;
+          font-size: 22px;
         }
         #hd1{
             color:darkgreen;
@@ -164,7 +164,7 @@
       information about the website you can feel free to navigate.
     </p>
     <hr>
-    <p style = "margin:0% 25%" class="P_show">
+    <p style = "margin:0% 23%" class="P_show">
       In case you want to get in touch with me, you can  <button id="showbtn" name="showbtn"  style="background-color:darkgray">click here</button> and do the needful.
     </p><br>
 
