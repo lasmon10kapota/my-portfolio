@@ -11,7 +11,7 @@
             margin-left: 20px;
             margin-right: 20px;
             font-family: 'Times New Roman', Times, serif;
-            font-size: 20px;
+            font-size: 22px;
             }
             .para{
             text-align: center;
